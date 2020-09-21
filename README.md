@@ -6,7 +6,7 @@
 <br>
 <img  src="public/images/Web 1920 – 7.png" alt="">
 <br>
-Built & Designed By: Priscila DaSilva
+Built & Designed by: Priscila DaSilva
 
   
 
