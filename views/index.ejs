@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <title>Buster The Weather Cat</title>
+</head>
+<body>
+  <header>
+    <h1>Buster The Weather<span style="color:#FF8F43;"> Cat</span></h1>
+  </header>
+  <main>
+    <form action="/" method="post">
+      <section class="location">
+        <div class="city">
+          <img class="paws" src="/images/paw.svg" alt="">
+          <input id="city" type="text" name="cityName" value="" placeholder=" City (ex. Rome)">
+        </div>
+        <div class="country">
+          <img class="paws" src="/images/paw.svg" alt="">
+          <input id="country" type="text" name="country" value="" placeholder=" Country (ex. Italy)">
+        </div>
+      </section>
+      <div class="button">
+        <button id="btn" type="submit">Submit</button>
+      </div>
+    </form>
+    <section class="result">
+        <div class="talkBubble">
+          <div class="talkText">
+            <% if(weather !== null){ %>
+            <p>The Weather is:</p>
+            <p class="weatherInfo"> <%= weather %> <span> <img class="degree" src="/images/Degree.png" alt=""> <img class="icon" src= "<%= icon %>" alt=""> </span></p>
+            <% } %> <% if(error !== null){ %>
+        <p><%= error %></p>
+        <% } %>
+          </div>
+        </div>
+      <div class="buster">
+        <img class="busterImg" src="/images/buster.png" alt="">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Made by Buster with <span style="color:red; font-size: 20px;">&#x2764;</span></p>
+  </footer>
+</body>
+</html>

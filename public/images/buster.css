@@ -1,0 +1,219 @@
+html {
+  min-height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  font-size: 10px;
+  background-image: url("background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Segoe UI', regular;
+}
+
+/* Header */
+header {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: 'Segoe Print', regular;
+}
+
+/* Main Section */
+main  {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Section - form */
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #7D7D7D;
+  border-width: thin;
+  font-size: 20px;
+}
+
+.location  {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.city, .country {
+  display: flex;
+  align-items: center;
+}
+
+#city {
+  margin-left: -5px;
+  margin-right: 3em;
+}
+
+#country {
+  margin-left: -5px !important;
+  margin-left: 3em;
+}
+
+.paws {
+  width: 90px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0;
+}
+
+#btn {
+  background-color: #007090;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+/* Main Section - Result */
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.talkBubble, .buster {
+  display: flex;
+  align-items: center;
+}
+
+.talk {
+  display: flex;
+  align-items: flex-start;
+}
+
+.talkBubble {
+  width: 310px;
+  height: 243px;
+  margin-bottom: -200px;
+  margin-left: -400px;
+  position: relative;
+  background-image: url("talkBubble.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.talkText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  font-size: 20px;
+  text-align: left;
+}
+
+.busterImg{
+  width: 600px;
+  margin-bottom: 10em;
+}
+
+/* Footer */
+footer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end !important;
+  justify-content: center;
+  color: #7D7D7D;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background-image: url("background_mobile.svg"););
+  }
+
+  .paws {
+    width: 120px;
+  }
+
+  header {
+    margin-top: 100px;
+    align-items: flex-end;
+  }
+
+  form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  input {
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .location  {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .city, .country {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #city {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #country {
+    margin-left: 0;
+    margin-left: 0;
+  }
+
+  #btn {
+    padding: 25px;
+    width: 300px;
+    font-size: 3em;
+    margin-bottom: 150px;
+  }
+
+  .talkText {
+    font-size: 30px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+
+
+}
