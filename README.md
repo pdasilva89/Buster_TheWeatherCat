@@ -1,5 +1,5 @@
 # Buster_TheWeatherCat
-<h5>This project was built with EJS, CSS, NodeJS & Open Weather API.</h5>
+<h3>This project was built with EJS, CSS, NodeJS & Open Weather API.</h3>
 <br>
 <a href="https://vast-spire-77581.herokuapp.com/"><img  src="public/images/button.png" alt=""></a>
 <br>
