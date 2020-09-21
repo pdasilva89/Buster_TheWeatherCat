@@ -1,16 +1,12 @@
 # Buster_TheWeatherCat
 
-This project was built with EJS, CSS, NodeJS &  API.
+<h5>This project was built with EJS, CSS, NodeJS & Open Weather API.</h5>
+<br>
+<a href="https://vast-spire-77581.herokuapp.com/"><img  src="public/images/button.png" alt=""></a>
+<br>
+<img  src="public/images/Web 1920 – 7.png" alt="">
+Built & Designed By: Priscila DaSilva
 
-<a href="https://vast-spire-77581.herokuapp.com/"><img src="images/button.png" alt=""></a>
-
-
-<ul>
-  API
-  <li>
-    <a href="https://openweathermap.org/api">Weather API</a>
-  </li>
-  </ul>
   
 
 
